@@ -30,3 +30,7 @@ style = "bold green"
 # Change the java style in the prompt
 [java]
 style = "red"
+
+# Always show the username in the prompt
+[username]
+show_always = true

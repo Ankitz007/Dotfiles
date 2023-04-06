@@ -1,7 +1,7 @@
 # Author: @Ankitz007
 
 # Python related aliases
-alias run_via_uvicorn="python -m gunicorn --bind 0.0.0.0:8000 oneops_backend.asgi -w 4 -k uvicorn.workers.UvicornWorker --reload"
+alias run_via_uvicorn="python -m gunicorn --bind 0.0.0.0:8000 myDjangoApp.asgi -w 4 -k uvicorn.workers.UvicornWorker --reload"
 
 # RabbitMQ related aliases
 alias rmqstart="brew services start rabbitmq"
