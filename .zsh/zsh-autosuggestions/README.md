@@ -1,0 +1,1 @@
+# [Zsh Auto-Suggestions Plugin](https://github.com/zsh-users/zsh-autosuggestions)

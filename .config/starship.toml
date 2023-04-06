@@ -1,0 +1,32 @@
+# Author: @Ankitz007
+
+# Add a new line between prompts
+add_newline = true
+
+# Replace symbol in the prompt with '➜'
+[character]
+success_symbol = '[💻 ](bold blue)[➜](bold green)'
+error_symbol = '[💻 ](bold blue)[➜](bold red)'
+
+# Change git symbol in the prompt
+[git_branch]
+symbol = "🎋 "
+style = "purple"
+
+# Change the package style in the prompt
+[package]
+style = "yellow"
+
+# Change the path format and style in the prompt
+[directory]
+format = '[📂 $path]($style)[$read_only]($read_only_style) '
+style = "cyan"
+home_symbol = "🏠"
+
+# Change the style for command duration
+[cmd_duration]
+style = "bold green"
+
+# Change the java style in the prompt
+[java]
+style = "red"

@@ -1,0 +1,24 @@
+# User specific git configuration
+[user]
+	name = Ankitz007
+	email = ankitkumarsingh11061999@gmail.com
+
+# Below lines are needed if you work with multiple github accounts
+# In the specified directory, use a separate gitconfig to define the user name and email address
+[includeIf "gitdir:~/Desktop/MyAnotherGithubAccount/"]
+	path = ~/Desktop/MyAnotherGithubAccount/.gitconfig
+
+# Avoids adding '... origin branch' to the end of the git push command
+[push]
+	autoSetupRemote = true
+
+# Aliases
+[alias]
+	hist = log --pretty=format:'%C(yellow)[%ad]%C(reset) %C(green)[%h]%C(reset) | %C(red)%s %C(bold red){{%an}}%C(reset) %C(blue)%d%C(reset)' --graph --date=short
+
+# Pull method: Fast Forward
+[pull]
+	ff = true
+
+[core]
+	pager = LESS -FRX
