@@ -3,6 +3,17 @@
 # Python related aliases
 alias run_via_uvicorn="python -m gunicorn --bind 0.0.0.0:8000 myDjangoApp.asgi -w 4 -k uvicorn.workers.UvicornWorker --reload"
 
+# Exa based aliases
+# (see https://github.com/ogham/exa)
+alias ls="exa"
+alias ll="exa -lh"
+alias la="exa -alh"
+alias tree="exa --tree"
+
+# Bat based aliases
+# (see https://github.com/sharkdp/bat)
+alias cat="bat --paging=never"
+
 # RabbitMQ related aliases
 alias rmqstart="brew services start rabbitmq"
 alias rmqstop="brew services stop rabbitmq"
