@@ -42,3 +42,6 @@ alias ggdiff="git diff"
 alias ggresethard="git reset --hard"
 alias ggresetsoft="git reset --soft"
 alias ggamend="git commit --amend"
+
+# Reloading the shell
+alias reload="source ~/.zshrc"
